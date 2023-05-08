@@ -1,0 +1,9 @@
+**/*
+!include/
+!include/*.h
+!src
+!src/*.c
+!example
+!example/*.c
+!.gitignore
+!Makefile
