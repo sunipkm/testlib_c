@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int TestLib_GetInfo(TESTLIB_INFO *info)
+int testlib_getinfo(TESTLIB_INFO *info)
 {
     if (info == NULL)
         return 1;
@@ -15,5 +15,6 @@ int TestLib_GetInfo(TESTLIB_INFO *info)
     info->IsColorCam = rand() % 2;
     info->BayerPattern = rand() % 4;
     info->pixelSize = 10;
+    printf("In C land!\n\n");
     return 0;
 }

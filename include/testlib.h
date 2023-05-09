@@ -24,6 +24,6 @@ typedef struct _TESTLIB_INFO {
     double pixelSize;
 } TESTLIB_INFO;
 
-int TestLib_GetInfo(TESTLIB_INFO *info);
+int testlib_getinfo(TESTLIB_INFO *info);
 
 #endif // __TESTLIB_H__

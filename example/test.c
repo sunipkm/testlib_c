@@ -4,7 +4,7 @@
 int main()
 {
     TESTLIB_INFO info;
-    TestLib_GetInfo(&info);
+    testlib_getinfo(&info);
     printf("Name: %s\n", info.Name);
     printf("CameraID: 0x%x\n", info.CameraID);
     printf("MaxHeight: %ld\n", info.MaxHeight);
